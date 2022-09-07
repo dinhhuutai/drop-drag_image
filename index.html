@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drop & Drag Image</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/fonts/fontawesome-free-5.15.4-web/css/all.min.css">
+</head>
+<body>
+
+    <div class="wrap-dd">
+        <h1 class="title">PREVIEW & DROP IMAGE</h1>
+        <div class="contain-img">
+            <div class="box-item wrap-input">
+                <input accept="image/png, image/jpeg" type="file" class="input">
+                <div class="content">
+                    <i class="fas fa-cloud-upload-alt content-icon"></i>
+                    <p class="content-message">Upload to preview image</p>
+                </div>
+                <img class="img" />
+            </div>
+            <div class="box-item drag 1"></div>
+            <div class="box-item drag 2"></div>
+            <div class="box-item drag 3"></div>
+        </div>
+    </div>
+
+    <script src="./main.js"></script>
+</body>
+</html>
